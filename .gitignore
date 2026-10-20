@@ -1,0 +1,22 @@
+# 构建产物 / 可执行文件
+BackupTool.exe
+BackupTool_v2.exe
+build/
+build_tmp/
+dist/
+*.spec
+
+# 本机配置（含真实路径，不入库）
+backup_config.json
+
+# 运行日志
+backup_log.txt
+backup_log.txt.old
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 反编译/分析临时件
+strings.txt
+dis.txt
